@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SideMenuHeaderCollectionView" customModule="SchoolApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="484" height="171"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="school" translatesAutoresizingMaskIntoConstraints="NO" id="Yp6-nj-3Ic">
+                    <rect key="frame" x="0.0" y="0.0" width="484" height="171"/>
+                </imageView>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wnm-uP-r1Q">
+                    <rect key="frame" x="0.0" y="0.0" width="484" height="171"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="school" translatesAutoresizingMaskIntoConstraints="NO" id="IUR-oY-LZA">
+                    <rect key="frame" x="10" y="17" width="137" height="137"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="IUR-oY-LZA" secondAttribute="height" id="qho-T2-keZ"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Twq-WJ-dr0">
+                    <rect key="frame" x="162" y="37.5" width="307" height="96"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test User" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="f7H-U2-1jj">
+                            <rect key="frame" x="0.0" y="0.0" width="307" height="48"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test User" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Sgh-Wr-eK2">
+                            <rect key="frame" x="0.0" y="48" width="307" height="48"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wnm-uP-r1Q" firstAttribute="height" secondItem="Yp6-nj-3Ic" secondAttribute="height" id="0qX-K5-m5U"/>
+                <constraint firstItem="Wnm-uP-r1Q" firstAttribute="centerX" secondItem="Yp6-nj-3Ic" secondAttribute="centerX" id="HYZ-CD-WKs"/>
+                <constraint firstItem="Twq-WJ-dr0" firstAttribute="leading" secondItem="IUR-oY-LZA" secondAttribute="trailing" constant="15" id="IvE-Jq-eXY"/>
+                <constraint firstItem="Wnm-uP-r1Q" firstAttribute="width" secondItem="Yp6-nj-3Ic" secondAttribute="width" id="TKT-fR-r8Z"/>
+                <constraint firstItem="Twq-WJ-dr0" firstAttribute="centerY" secondItem="IUR-oY-LZA" secondAttribute="centerY" id="VAG-OT-roh"/>
+                <constraint firstItem="Yp6-nj-3Ic" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Vg8-CC-zlZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Yp6-nj-3Ic" secondAttribute="bottom" id="WU2-lF-Qgj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Twq-WJ-dr0" secondAttribute="trailing" constant="15" id="Wkl-5J-bfS"/>
+                <constraint firstItem="Yp6-nj-3Ic" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Yra-kA-o6h"/>
+                <constraint firstItem="IUR-oY-LZA" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.8" id="hJz-hI-sKU"/>
+                <constraint firstItem="Wnm-uP-r1Q" firstAttribute="centerY" secondItem="Yp6-nj-3Ic" secondAttribute="centerY" id="mN2-Hl-wwZ"/>
+                <constraint firstItem="IUR-oY-LZA" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="mUf-Yc-1RK"/>
+                <constraint firstItem="IUR-oY-LZA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="w4Y-bV-A1c"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Yp6-nj-3Ic" secondAttribute="trailing" id="wFF-1w-qG6"/>
+                <constraint firstItem="Twq-WJ-dr0" firstAttribute="height" secondItem="IUR-oY-LZA" secondAttribute="height" multiplier="0.7" id="zx9-i8-DZR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="userName" destination="f7H-U2-1jj" id="YwC-Hi-iiB"/>
+                <outlet property="userProfileBackGround" destination="Yp6-nj-3Ic" id="UHp-eU-tsv"/>
+                <outlet property="userProfileImage" destination="IUR-oY-LZA" id="Cg8-QR-5uu"/>
+                <outlet property="userclassDetail" destination="Sgh-Wr-eK2" id="Sft-Wd-k72"/>
+            </connections>
+            <point key="canvasLocation" x="219.19999999999999" y="49.925037481259373"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="school" width="108.10089111328125" height="76.871749877929688"/>
+    </resources>
+</document>

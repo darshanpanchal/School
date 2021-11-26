@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>668556312264-30c3nc1skdd2u23fas8vsjbjhpro13pg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.668556312264-30c3nc1skdd2u23fas8vsjbjhpro13pg</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>668556312264-pcpi5kc95ev7p1o9cf81vustbkd4u8t1.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBA9uvcsPVOl4gghLncnw5fCzruHGj0jFs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>668556312264</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.saserp</string>
+	<key>PROJECT_ID</key>
+	<string>sas-surat</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sas-surat.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:668556312264:ios:ca98458b79222b6f</string>
+	<key>DATABASE_URL</key>
+	<string>https://sas-surat.firebaseio.com</string>
+</dict>
+</plist>

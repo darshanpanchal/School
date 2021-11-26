@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CalendarYealyTableViewCell" customModule="SchoolApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="521" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fR7-RR-FjV">
+                    <rect key="frame" x="15" y="15" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XTZ-Fa-Tdd">
+                    <rect key="frame" x="193" y="7" width="343.5" height="66"/>
+                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKL-Yq-2dI">
+                    <rect key="frame" x="208.5" y="10" width="312.5" height="60"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="qpU-EX-GnC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="IKL-Yq-2dI" secondAttribute="bottom" constant="10" id="35k-y0-hoc"/>
+                <constraint firstItem="XTZ-Fa-Tdd" firstAttribute="width" secondItem="IKL-Yq-2dI" secondAttribute="width" multiplier="1.1" id="B7t-zA-Xli"/>
+                <constraint firstItem="fR7-RR-FjV" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="Ecl-EI-d3C"/>
+                <constraint firstItem="fR7-RR-FjV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Kqf-rV-Dur"/>
+                <constraint firstItem="XTZ-Fa-Tdd" firstAttribute="centerY" secondItem="IKL-Yq-2dI" secondAttribute="centerY" id="S4w-Lv-g8N"/>
+                <constraint firstItem="XTZ-Fa-Tdd" firstAttribute="centerX" secondItem="IKL-Yq-2dI" secondAttribute="centerX" id="Za2-RY-uiv"/>
+                <constraint firstItem="IKL-Yq-2dI" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.6" id="glm-ph-fbL"/>
+                <constraint firstItem="XTZ-Fa-Tdd" firstAttribute="height" secondItem="IKL-Yq-2dI" secondAttribute="height" multiplier="1.1" id="jAC-oO-YZa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IKL-Yq-2dI" secondAttribute="trailing" id="wui-LW-tWW"/>
+                <constraint firstItem="IKL-Yq-2dI" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="z81-is-zXE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="containerView" destination="XTZ-Fa-Tdd" id="OOu-h9-lcE"/>
+                <outlet property="lblDay" destination="fR7-RR-FjV" id="YHJ-44-AYJ"/>
+                <outlet property="lblEventDetail" destination="IKL-Yq-2dI" id="FEm-jk-IS2"/>
+            </connections>
+            <point key="canvasLocation" x="-202.40000000000001" y="-101.19940029985008"/>
+        </view>
+    </objects>
+</document>

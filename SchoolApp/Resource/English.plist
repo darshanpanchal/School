@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NoInternet</key>
+	<string>Please check your connection and try again.</string>
+	<key>genral.username</key>
+	<string>Username</string>
+	<key>genral.password</key>
+	<string>Password</string>
+	<key>genral.go</key>
+	<string>GO</string>
+	<key>genral.enterUserName</key>
+	<string>Please enter user name</string>
+	<key>genral.enterPassword</key>
+	<string>Please enter password</string>
+	<key>genral.forgotPassword</key>
+	<string>Forgot Password?</string>
+	<key>genral.currentPassword</key>
+	<string>Current Password</string>
+	<key>genral.newPassword</key>
+	<string>New Password</string>
+	<key>genral.confirmPassword</key>
+	<string>Confirm Password</string>
+	<key>genral.enterCurrentPassword</key>
+	<string>Please enter current password</string>
+	<key>genral.enterValidCurrentPassword</key>
+	<string>Please enter valid current password.</string>
+	<key>genral.enterNewPassword</key>
+	<string>Please enter new password</string>
+	<key>genral.enterConfirmPassword</key>
+	<string>Please enter confirm password</string>
+	<key>confirmPasswordAsPassword</key>
+	<string>Passwords do not match</string>
+	<key>genral.minimumpassword</key>
+	<string>Password must have minimum 6 digits</string>
+	<key>genral.maximumpassword</key>
+	<string>Please enter maximum 15 characters password</string>
+	<key>genral.backToLogin</key>
+	<string>Back to Login</string>
+	<key>genral.School</key>
+	<string>School</string>
+	<key>genral.Class</key>
+	<string>Class</string>
+	<key>genral.MobileNumber</key>
+	<string>Mobile</string>
+	<key>genral.Done</key>
+	<string>Done</string>
+	<key>genral.Cancel</key>
+	<string>Cancel</string>
+	<key>genral.SelectSchool</key>
+	<string>Please select school</string>
+	<key>genral.SelectClass</key>
+	<string>Please select class</string>
+	<key>genral.mobilenumeber</key>
+	<string>Please enter valid mobile number</string>
+	<key>genral.MyDashboard</key>
+	<string>My Dashboard</string>
+	<key>genral.ChangePassword</key>
+	<string>Change Password</string>
+	<key>genral.AddAccount</key>
+	<string>Add Account</string>
+	<key>genral.RateUs</key>
+	<string>Rate Us</string>
+	<key>genral.logout</key>
+	<string>Logout</string>
+	<key>genral.mypofile</key>
+	<string>My Profile</string>
+	<key>genral.no</key>
+	<string>No</string>
+	<key>genral.yes</key>
+	<string>Yes</string>
+	<key>genral.logoutmessage</key>
+	<string>Are you sure you want to logout?</string>
+	<key>genral.changepassword</key>
+	<string>Change Password</string>
+	<key>genral.Submit</key>
+	<string>Submit</string>
+	<key>genral.HomeWork</key>
+	<string>Homework</string>
+	<key>genral.HomeWorkDetail</key>
+	<string>Homework Detail</string>
+	<key>genral.Transport</key>
+	<string>Transport</string>
+	<key>genral.busStopDetailt</key>
+	<string>Bus Stop Detail</string>
+	<key>genral.DriverDetail</key>
+	<string>Bus Driver Detail</string>
+	<key>genral.Notice</key>
+	<string>Notice</string>
+	<key>genral.NoticeAll</key>
+	<string>All</string>
+	<key>genral.NoticeCircular</key>
+	<string>Circular</string>
+	<key>genral.NoticeDetail</key>
+	<string>Notice Detail</string>
+	<key>NoSearchResult</key>
+	<string>No data found</string>
+	<key>genral.Attenndance</key>
+	<string>Attendance</string>
+	<key>ok.title</key>
+	<string>Ok</string>
+	<key>genral.Present</key>
+	<string>Present</string>
+	<key>genral.Absent</key>
+	<string>Absent</string>
+	<key>genral.leave</key>
+	<string>Leave</string>
+	<key>genral.holiday</key>
+	<string>Holidays</string>
+	<key>genral.monthly</key>
+	<string>Monthly Details</string>
+	<key>genral.yearly</key>
+	<string>Yearly Details</string>
+	<key>genral.presentDays</key>
+	<string>Total Present Days</string>
+	<key>genral.AbsentDays</key>
+	<string>Absent Days</string>
+	<key>genral.leavDays</key>
+	<string>Leave Days</string>
+	<key>genral.TotalWorkingDays</key>
+	<string>Total Working Days</string>
+	<key>genral.annualPercentage</key>
+	<string>Annual-Percentage</string>
+	<key>genral.fees</key>
+	<string>Fees</string>
+	<key>genral.remark</key>
+	<string>Remark</string>
+	<key>genral.photogallery</key>
+	<string>Photo Gallery</string>
+	<key>genral.mealmenu</key>
+	<string>Meal Menu</string>
+	<key>genral.syllabus</key>
+	<string>Syllabus</string>
+	<key>genral.myleave</key>
+	<string>My Leave</string>
+	<key>genral.timetable</key>
+	<string>Time Table</string>
+	<key>genral.holidayhomework</key>
+	<string>Holiday Homework</string>
+	<key>genral.assignment</key>
+	<string>Assignment</string>
+	<key>genral.onlinefeespay</key>
+	<string>Online Fees pay</string>
+	<key>genral.ptm</key>
+	<string>PTM</string>
+	<key>genral.achievment</key>
+	<string>Achievement</string>
+	<key>genral.achievmentDetail</key>
+	<string>Achievement Detail</string>
+	<key>genral.ExamTimeTable</key>
+	<string>Exam Time Table</string>
+	<key>genral.Calendar</key>
+	<string>Calendar</string>
+	<key>genral.ViewFeesGraph</key>
+	<string>View Fees Graph</string>
+	<key>genral.FeesDetail</key>
+	<string>Fees Graph</string>
+	<key>genral.AddLeave</key>
+	<string>New Leave</string>
+	<key>genral.Assignment</key>
+	<string>Assignment</string>
+	<key>genral.AssignmentDetail</key>
+	<string>Assignment Detail</string>
+	<key>genral.ExamTimeTableDetail</key>
+	<string>Exam Timetable Detail</string>
+	<key>genral.RemarkDetail</key>
+	<string>Remark Detail</string>
+	<key>genral.YealyView</key>
+	<string>Yearly View</string>
+	<key>genral.MonthlyView</key>
+	<string>Monthly View</string>
+	<key>genral.Events</key>
+	<string>Event</string>
+</dict>
+</plist>

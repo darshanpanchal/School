@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Users" representedClassName="Users" syncable="YES">
+        <attribute name="birth_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="current_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="divison_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="father_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gr_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone_number1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone_number2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roll_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="school_lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="school_long" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="student_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="student_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="student_photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teacher" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userrole" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userrole_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userschoolname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Users" positionX="-63" positionY="-18" width="128" height="30"/>
+    </elements>
+</model>
